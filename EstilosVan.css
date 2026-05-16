@@ -10,3 +10,9 @@
   font-weight: 300;
   font-style: normal;
 }
+
+.marco{
+    border: solid 15px #3a2b17;
+    margin: 20px;
+    padding: 50px;
+}
