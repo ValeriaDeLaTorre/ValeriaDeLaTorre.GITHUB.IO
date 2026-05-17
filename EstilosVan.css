@@ -1,7 +1,12 @@
-#header{
-    font-size:large;
-    color: antiquewhite;
-    
+#head{
+    color: whitesmoke;
+    vertical-align: middle;
+    padding: 10px;
+} 
+#head2{
+    color: black;
+    vertical-align: middle;
+    padding: 10px;
 } 
 
 .nunito {
@@ -12,7 +17,41 @@
 }
 
 .marco{
-    border: solid 15px #3a2b17;
-    margin: 20px;
-    padding: 50px;
+    border: solid 25px black;
+    width: 250px;
+}
+
+.marco2{
+    border: solid 10px black;
+    width: 250px;
+}
+
+img{
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+  vertical-align: middle; 
+}
+.w{
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.textov{
+  flex: 1;
+}
+.fondo{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ccb0ab;
+}
+.pills{
+  background-color: #67403A;
+  color: white;
+}
+.apill{
+  background-color: #4D1C15;
 }
