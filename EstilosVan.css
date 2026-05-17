@@ -1,19 +1,41 @@
 #head{
-    color: whitesmoke;
-    vertical-align: middle;
-    padding: 10px;
-} 
+  color: whitesmoke;
+  vertical-align: middle;
+  padding: 10px;
+}
+
 #head2{
     color: black;
     vertical-align: middle;
     padding: 10px;
 } 
 
-.nunito {
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
+.cherry{
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
   font-style: normal;
+}
+
+.justmeagain{
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+}
+
+.nerko{
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+#tit1{
+  font-family: "cherry";
+}
+
+#tit2{
+  font-family: "nerko";
 }
 
 .marco{
@@ -47,11 +69,4 @@ img{
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #ccb0ab;
-}
-.pills{
-  background-color: #67403A;
-  color: white;
-}
-.apill{
-  background-color: #4D1C15;
 }
