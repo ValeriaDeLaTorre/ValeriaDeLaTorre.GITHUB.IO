@@ -1,53 +1,55 @@
-#head{
+h1{
   color: whitesmoke;
   vertical-align: middle;
   padding: 10px;
+  text-decoration: underline;
 }
-
-#head2{
+h3{
     color: black;
     vertical-align: middle;
     padding: 10px;
-} 
-
+}
+#txt{
+  color: black;
+  vertical-align: middle;
+  padding: 10px;
+}
+#txtw{
+  color: white;
+  vertical-align: middle;
+  padding: 10px;
+}
 .cherry{
   font-family: "Cherry Bomb One", system-ui;
   font-weight: 400;
   font-style: normal;
 }
-
 .justmeagain{
   font-family: "Just Me Again Down Here", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: x-large;
 }
-
 .nerko{
   font-family: "Nerko One", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: xx-large;
 }
-
 #tit1{
   font-family: "cherry";
 }
-
 #tit2{
   font-family: "nerko";
 }
-
 .marco{
     border: solid 25px black;
     width: 250px;
 }
-
 .marco2{
     border: solid 10px black;
     width: 250px;
 }
-
 img{
   width: 100%;
   max-width: 400px;
@@ -62,11 +64,21 @@ img{
   justify-content: space-around;
   gap: 20px;
 }
+.y{
+  padding-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
 .textov{
   flex: 1;
 }
 .fondo{
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
   background-color: #ccb0ab;
+}
+.top{
+  background-color: #67403A;
 }
